@@ -3,7 +3,7 @@
 :root {
     --main-color: #00c7fc;
     --second-color: #a8a8a8;
-    --color-paragraphe: #1f2021;
+    --color-paragraph: #1f2021;
     --color-page: rgba(15, 116, 143, 0.8);
     --delay-hover: 0.4s;
     --section-padding: 150px;
@@ -380,7 +380,7 @@ header nav .form i:hover {
 
 .services-bottom {
     padding-bottom: calc(var(--section-padding) - 50px);
-    background-color: var(--color-paragraphe);
+    background-color: var(--color-paragraph);
     height: 500px;
     overflow: hidden;
 }
