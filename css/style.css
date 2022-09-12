@@ -64,7 +64,7 @@ ul {
 .main-components {
     padding: 100px;
     text-align: center;
-    color: var(--color-paragraphe);
+    color: var(--color-paragraph);
     position: relative;
 }
 
@@ -83,7 +83,7 @@ ul {
     transform: translateX(-50%);
     width: 100px;
     height: 1px;
-    background-color: var(--color-paragraphe);
+    background-color: var(--color-paragraph);
 }
 
 .main-components h2::after {
@@ -91,7 +91,7 @@ ul {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    border: 1px solid var(--color-paragraphe);
+    border: 1px solid var(--color-paragraph);
     border-radius: 50%;
     width: 12px;
     height: 12px;
@@ -221,8 +221,9 @@ header nav .form i:hover {
 
 /* Start section landing  */
 
+
 .landing {
-    background-image: url(../image/bg2.jpg);
+    background-image: url(../image/bg4.jpg);
     min-height: 100vh;
     background-size: cover;
     position: relative;
@@ -474,7 +475,7 @@ header nav .form i:hover {
 
 .portfolio .port-section ul li {
     padding: 15px 20px;
-    color: var(--color-paragraphe);
+    color: var(--color-paragraph);
 }
 
 .portfolio .port-section ul a:hover,
@@ -621,7 +622,7 @@ header nav .form i:hover {
 
 .counter .container .box i {
     display: flex;
-    background-color: var(--color-paragraphe);
+    background-color: var(--color-paragraph);
     width: 40px;
     height: 40px;
     justify-content: center;
@@ -736,7 +737,7 @@ header nav .form i:hover {
 
 .skills .our-skills .progress-holder>div span::before {
     content: attr(data-progress);
-    background-color: var(--color-paragraphe);
+    background-color: var(--color-paragraph);
     color: whitesmoke;
     padding: 3px 0;
     position: absolute;
@@ -754,7 +755,7 @@ header nav .form i:hover {
     border-width: 8px;
     left: 98%;
     top: -21px;
-    border-color: var(--color-paragraphe) transparent transparent;
+    border-color: var(--color-paragraph) transparent transparent;
 }
 
 /* End Section Skills */
@@ -763,7 +764,7 @@ header nav .form i:hover {
 
 .quotes {
     padding: 100px 0;
-    background-color: var(--color-paragraphe);
+    background-color: var(--color-paragraph);
     color: whitesmoke;
     text-align: center;
     line-height: 1.7;
@@ -1023,7 +1024,7 @@ header nav .form i:hover {
 .footer {
     padding-top: calc(var(--section-padding) / 2);
     padding-bottom: calc(var(--section-padding) - 100px);
-    background-color: var(--color-paragraphe);
+    background-color: var(--color-paragraph);
     color: white;
     text-align: center;
 }
