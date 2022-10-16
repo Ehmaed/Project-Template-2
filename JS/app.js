@@ -86,72 +86,23 @@ let boxes = Array.from(document.querySelectorAll('.port-img .box'));
 console.log(ul);
 
 
-ul.forEach((li) => { 
-    li.addEventListener('click', (event) => {
-        ul.forEach((li) => { 
-            li.classList.remove('active');
+ul.forEach((li) => {
+    li.addEventListener("click", (event) => {
+        ul.forEach((li) => {
+            li.classList.remove("active");
         });
-        event.target.parentElement.classList.add("active");
+    event.target.parentElement.classList.add("active");
     });
 
-    li.addEventListener('click', () => { 
-        boxes.forEach((box) => { 
-            box.style.display = 'none';
-        });
-        document.querySelectorAll(li.dataset.atr).forEach((element) => { 
-            element.style.display = "flex";
-            element.style.flexBasis = "50%"
-            element.style.flexBasis = "50%"
-        });
+    li.addEventListener("click", () => {
+    boxes.forEach((box) => {
+        box.style.display = "none";
+    });
+    document.querySelectorAll(li.dataset.atr).forEach((element) => {
+        element.style.display = "flex";
+        element.style.flexBasis = "25%";
+        element.style.transition = "all 0.5s ease 0s";
+        element.style.justifyContent = "space-around";
+    });
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// right.onclick = function () {
-//     console.log("right");
-// };
-// left.addEventListener(function () {
-//     console.log("left");
-// });
-// let bullets = document.getElementById('bullets');
-
-// right.addEventListener("click", function () {
-//     slideImage[current % length].classList.remove('active');
-//     current++;
-//     slideImage[current % length].classList.add('active');
-// });
-
-// left.addEventListener("click", function () {
-//     slideImage[current].classList.remove('active');
-//     slideImage[current + 1].classList.add('active');
-// });
-// function check() {
-//     slideImage[current - 1].classList.add('active');
-
-//     bullets.classList.add('active');
-//     // removeClass()
-// }
-
-// function removeClass() {
-//     slideImage.forEach(function (img) {
-//         img.classList.remove('active');
-//     });
-
-//     bullets.forEach(function (bullets) {
-//         bullets.classList.remove('active');
-//     });
-// }
