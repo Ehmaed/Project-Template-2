@@ -503,6 +503,7 @@ header nav .form i:hover {
 .portfolio .port-section ul a {
     text-decoration: none;
     transition: var(--delay-hover);
+    cursor: pointer;
 }
 
 .portfolio .port-section ul li {
@@ -524,6 +525,7 @@ header nav .form i:hover {
 .portfolio .port-img .box {
     position: relative;
     overflow: hidden;
+    transition: .5s;
 }
 
 @media (min-width: 768px) {
@@ -551,6 +553,7 @@ header nav .form i:hover {
     transition: var(--delay-hover);
     transform: translateY(50%);
     left: 9vw;
+    cursor: pointer;
 }
 
 .portfolio .port-img .box .plus {

@@ -81,6 +81,46 @@ setInterval(() => {
 }, 3500);
 
 
+let ul = document.querySelectorAll('.portfolio .port-section ul a');
+let boxes = Array.from(document.querySelectorAll('.port-img .box'));
+console.log(ul);
+
+
+ul.forEach((li) => { 
+    li.addEventListener('click', (event) => {
+        ul.forEach((li) => { 
+            li.classList.remove('active');
+        });
+        event.target.parentElement.classList.add("active");
+    });
+
+    li.addEventListener('click', () => { 
+        boxes.forEach((box) => { 
+            box.style.display = 'none';
+        });
+        document.querySelectorAll(li.dataset.atr).forEach((element) => { 
+            element.style.display = "flex";
+            element.style.flexBasis = "50%"
+            element.style.flexBasis = "50%"
+        });
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // right.onclick = function () {
 //     console.log("right");
 // };
